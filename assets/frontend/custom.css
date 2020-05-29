@@ -1,0 +1,110 @@
+/****************recipe details****************/
+.recipe-container .card-img-overlay{
+    padding: 40px;
+    background: linear-gradient(45deg, #0000002b, black);
+}
+.recipe-container{background-color: #fff;}
+.recipe-container .row{border-bottom: 1px solid #33333347;}
+
+.recipe-container h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.recipe-container p{
+    font-size: 18px;
+}
+.rd-icon{padding: 0 10px;}
+.recipe-card-filter .form-check-label{
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.recipe-card-filter .form-check-input{
+    width: 20px;
+    height: 22px;
+}
+
+input:checked ~ .checkmark{ 
+    background-color: rgb(68, 216, 177); 
+    border-color: rgb(68, 216, 177);
+}
+
+.checkmark {
+  position: absolute;
+  top: 11px;
+  left: -20px;
+  height: 21px;
+  width: 21px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 1px;
+}
+
+
+.recipe-card-filter .card-group-item{
+    background-color: #FBF9E7;
+    padding: 0px 15px;
+}
+.recipe-card-filter .card-header{
+    border: none;
+    background-color: transparent;
+}
+.recipe-card-filter{border: none;}
+.recipe-card-filter .form-check{padding: 5px 0;}
+
+.recipe-card-filter-2{border: none;}
+.recipe-card-filter-2 .card-header{background-color: transparent;}
+.recipe-card-filter-2 .list-group-item{
+    background-color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.recipe-div{padding: 10px 20px;}
+.recipe-div ol{padding-left: 15px;}
+.recipe-div li{
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+.recipe-div .card-body{
+      margin: 0 20px;
+}
+.card img{max-height: 275px !important;}
+/****************recipe details****************/
+
+.plan-day{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.plan-div, .plan-title-div{background-color: #fff;border-bottom: 1px solid #33333347;}
+.cm-title-01 {
+    display: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 990px){
+  .container {
+      width: 100%;
+  }
+  .recipe-container h2 {
+    font-size: 28px;
+  }
+  .recipe-container .card-img-overlay {
+    padding: 10px;
+  }
+  .recipe-container p {
+    font-size: 17px;
+  }
+  .plan-div-col .col-md-3{
+    width: 50%;
+  }
+  .plan-day h4{font-size: 24px;}
+  .plan-title-div{display: none;}
+  .cm-title-01 {
+    display: block;
+  }
+}

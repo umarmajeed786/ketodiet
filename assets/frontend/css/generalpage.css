@@ -1,0 +1,128 @@
+body {
+  background: #fff;
+}
+
+.b-header-inner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.b-header-inner .e-logo {
+  max-width: 120px;
+  margin-left: 40px;
+}
+
+.btn-back {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 15px;
+  height: 25px;
+}
+
+.c-content {
+  position: relative;
+  min-height: 500px;
+}
+
+.b-text-api {
+  min-height: 150px;
+}
+
+.c-content--inner {
+  padding-bottom: 50px;
+}
+
+.b-text {
+  padding-top: 10px;
+}
+
+.b-text ol {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.b-text ol li {
+  padding-bottom: 10px;
+}
+
+.b-text table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.b-text table td {
+  border: 1px solid #dcdcdc;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.spinner,.spinner:after,.spinner:before {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+
+.spinner {
+  color: #000;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -.16s;
+  animation-delay: -.16s;
+}
+
+.spinner:after,.spinner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+}
+
+.spinner:before {
+  left: -3.5em;
+  -webkit-animation-delay: -.32s;
+  animation-delay: -.32s;
+}
+
+.spinner:after {
+  left: 3.5em;
+}
+
+@-webkit-keyframes load7 {
+  0%,80%,to {
+    -webkit-box-shadow: 0 2.5em 0 -1.3em;
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+
+  40% {
+    -webkit-box-shadow: 0 2.5em 0 0;
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+
+@keyframes load7 {
+  0%,80%,to {
+    -webkit-box-shadow: 0 2.5em 0 -1.3em;
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+
+  40% {
+    -webkit-box-shadow: 0 2.5em 0 0;
+    box-shadow: 0 2.5em 0 0;
+  }
+}
