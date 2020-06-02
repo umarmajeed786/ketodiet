@@ -43,6 +43,28 @@ class Customer extends CI_Controller {
     }
 
     public function paypal_success() {
+//        $config['SMTPHost'] = 'in-v3.mailjet.com';
+//        $config['SMTPUser'] = 'd3c67c34d018403aea3047b58399d82e';
+//        $config['SMTPPass'] = '7d52882359c046bb6406e0b593de011a';
+//        $config['SMTPPort'] = true;
+//
+//        $this->email->initialize($config);
+//       
+        //SMTP & mail configuration
+        $config = array(
+            'protocol' => 'smtp',
+            'smtp_host' => 'in-v3.mailjet.com',
+            'smtp_port' => 587,
+            'smtp_user' => '1a5cc1137624cf2c358ae7ca1d516548',
+            'smtp_pass' => 'aaf5dbed18abed1df8e127f4897fe4e5',
+            'mailtype' => 'html',
+            'charset' => 'utf-8'
+        );
+        $this->email->initialize($config);
+        $this->email->set_mailtype("html");
+        $this->email->set_newline("\r\n");
+        
+
         // if session has been removed  load view directly
 //        dd($_SESSION['client_info']);
         if (!isset($_SESSION['client_info'])) {
@@ -75,7 +97,7 @@ class Customer extends CI_Controller {
             // Mailchimp
             $subscriber_list_id = $this->config->item('MailChimp_subscribers_list_key'); // for subscribers
             $this->delete_from_mailchimp($email, $subscriber_list_id);
-            
+
             $result = $this->Customer_model->save_user_payment($user_id);
         }
 
@@ -88,7 +110,8 @@ class Customer extends CI_Controller {
 
 
         // Save user to the mailchimp
-        $user_list_id = $this->config->item('MailChimp_user_list_key'); ; // for user list
+        $user_list_id = $this->config->item('MailChimp_user_list_key');
+        ; // for user list
         $this->add_to_mailchimp($email, $user_list_id);
 
         // Sent user an email
@@ -106,11 +129,11 @@ class Customer extends CI_Controller {
         $subject = 'You have successfully registed';
         $message = $body;
 //        echo $body;
-//        $this->email->to($email);
-//        $this->email->from(EMAIL_FROM_SMTP, 'Myketo');
-//        $this->email->subject($subject);
-//        $this->email->message($message);
-//        $this->email->send();
+        $this->email->to($email);
+        $this->email->from('KetoClassified');
+        $this->email->subject($subject);
+        $this->email->message($message);
+        $this->email->send();
 
 
         $myfile = fopen('data.txt', "w") or die("Unable to open file");
@@ -129,7 +152,7 @@ class Customer extends CI_Controller {
     public function customer_email_check() {
         $email = $this->input->post('email');
         $this->session->unset_userdata('email_already_exists');
-        
+
         if ($this->Customer_model->customer_email_check($email)) {
             $this->session->set_userdata('email_already_exists', $email);
         } else {
