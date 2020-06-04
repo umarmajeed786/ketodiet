@@ -12,9 +12,8 @@ $segment4 = $this->uri->segment(4);
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
         <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
-        <meta name="csrf-token" content="f8rrLttn21DZLCiTla6rQtLhEoUqF7etzsx2zHrx">
-        <meta name="description" content="Keto Cycle offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
-        <meta name="keywords" content="Keto diet">
+        <meta name="description" content="keto Diet Simplified offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
+        <meta name="keywords" content="keto Diet Simplified">
 
 
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?= base_url('assets/frontend/images/favicon.jpg') ?>" />
@@ -39,6 +38,14 @@ $segment4 = $this->uri->segment(4);
         <title><?= $title ?> | <?= SITE_NAME ?></title>
 
         <link href="<?= base_url('assets/frontend/css/landing.css') ?>" rel="stylesheet" type="text/css">
+        <?php 
+        $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $uri_segments = explode('/', $uri_path);
+        
+        if($uri_segments[1] != 'payment'){  ?>
+        <link href="<?= base_url('assets/frontend/css/app-new.css') ?>" rel="stylesheet" type="text/css">
+        
+        <?php } ?>
         <script data-cfasync="false" src="<?= base_url('assets/frontend/js/app01.js') ?>"></script>
        
     </head>

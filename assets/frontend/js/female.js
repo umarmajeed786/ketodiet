@@ -21,6 +21,23 @@ window.targetWeightText = 'Target weight';
 
 $(document).ready(function () {
 
+    $('#step-1 .fancy-radio').click(function () {
+        $('#step-1 .fancy-radio .status-icon').html('-');
+        $('#step-1 .fancy-radio').removeClass('active');
+    });  
+    $('#step-3 .fancy-radio').click(function () {
+        $('#step-3 .fancy-radio .status-icon').html('-');
+        $('#step-3 .fancy-radio').removeClass('active');
+    });
+    $('#step-6 .fancy-radio').click(function () {
+        $('#step-6 .fancy-radio .status-icon').html('-');
+        $('#step-6 .fancy-radio').removeClass('active');
+    });
+    $('#step-7 .fancy-radio').click(function () {
+        $('#step-7 .fancy-radio .status-icon').html('-');
+        $('#step-7 .fancy-radio').removeClass('active');
+    });
+
     $('.fancy-radio-holder .fancy-radio').click(function () {
         $('.fancy-radio .status-icon').html('-');
         //$('.fancy-radio').removeClass('active');
@@ -377,8 +394,8 @@ $(document).ready(function () {
                 $('.error-msg').html('Please enter your email').fadeIn();
                 $(this).html("Next");
                 return false;
-            } else {
-                check_user_email($('#email-value').val());
+            } else if(check_user_email($('#email-value').val())) {
+                
             }
 
             window.age = $('#age-value').val();
@@ -409,7 +426,14 @@ $(document).ready(function () {
         if (slider_parent.data('type') === 'units_question') {
             slider_parent.find('.btn-next-step').text("Processing...");
             saveData();
-            return false;
+            $(".cm-loader").css({"display": "block"});
+            $(".mainNavbar").css({"display": "none"});
+            $(".subheader").css({"display": "none"});
+            $("#step-8").css({"display": "none"});
+            $(".step-number").css({"display": "none"});
+            setTimeout(function(){
+                return false;
+            }, 6000);
         }
 
         if (slider_parent.data('type') === 'results') {

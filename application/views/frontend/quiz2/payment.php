@@ -13,12 +13,12 @@
         <div class="container ">
             <img src="<?= base_url('assets\frontend/images/keto-diet-logo.png') ?>" alt="KetoCycle.Diet" class="regular-logo">
             <div class="block-content">
-                <h1 class="e-intro-title">Get your
-                    <span>personal</span> Keto Diet
+                <h1 class="e-intro-title">The Most
+                    <span>Popular</span> Keto Diet
                 </h1>
-                <h2 style="font-size: 29px;text-decoration:none;">The most popular Keto diet!
-                    Over <span>541 221</span>
-                    plans ordered</h2>
+                <h2 style="font-size: 29px;text-decoration:none;"><i>
+                    Loved by Over <span>40,000+</span> Active Members</i>
+                    </h2>
             </div>
             <div class="limited-offer">
                 The offer expires in: <span class="time is-pulsing">15:00</span>
@@ -122,14 +122,18 @@
                         </div>
                     </div>
                     <button class="e-btn cta-btn subscribe-btn">Click here to get your plan</button>
+
+                    <div class="secure-payment cm-payment-1">
+                        <img src="<?= base_url('assets\frontend/images/safecheckout.png') ?>" alt="Secure payment" />
+                    </div>
                 </div>
-                <div class="secure-payment">
+                <div class="secure-payment cm-payment-2">
                     <img src="<?= base_url('assets\frontend/images/safecheckout.png') ?>" alt="Secure payment" />
                 </div>
             </div>
             <div class="main-container">
 
-                <div class="product-composition">
+                <!--<div class="product-composition">
                     <div class="block-content">
                         <div class="left-side">
                             <h3>Your personalized Keto diet plan</h3>
@@ -138,7 +142,7 @@
                             <img src="<?= base_url('assets\frontend/images/keto-plan.webp') ?>" alt="Shopping list" />
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="keto-benefits">
                     <div class="block-content">
                         <h2 style="text-decoration: none;">Keto benefits</h2>
@@ -162,6 +166,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="covered">
                 <div class="heading">Keto Diet was covered in</div>
                 <div class="covered-logos">
@@ -170,12 +176,76 @@
                     <img src="<?= base_url('assets\frontend/images/covered-3.png') ?>" alt="New york times" />
                 </div>
             </div>
-            <div class="product-composition-media">
+
+            <div style="height:50px;"></div>
+            
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-12">
+                        <h2 style="text-decoration:none;">What Our Customer Says</h2>
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center">
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <small>Someone famous</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <small>Someone famous</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <small>Someone famous</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="<?= base_url('assets\frontend/images/Michelle-Wigle.jpg') ?>" alt="">
+                                
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                                </li>
+                            </ol>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="product-composition-media">
                 <div class="block-content-media">
                     <h3>Your personalized Keto diet plan</h3>
                     <img src="<?= base_url('assets\frontend/images/keto-plan.webp') ?>" alt="Shopping list" />
                 </div>
-            </div>
+            </div>-->
+
+            
             <div class="faq">
                 <div class="block-content">
                     <h2 style="text-decoration: none;">People often ask us</h2>
@@ -194,8 +264,17 @@
                 </div>
             </div>
 
+            <div class="text-center payment-info">
+                <button class="e-btn cta-btn subscribe-btn">Click here to get your plan</button>
+            </div>
+
             <div class="limited-offer">
                 The offer expires in: <span class="time is-pulsing">15:00</span>
+            </div>
+            <br />
+
+            <div class="secure-payment">
+                <img src="<?= base_url('assets\frontend/images/safecheckout.png') ?>" alt="Secure payment" width="300">
             </div>
             <br />
 
@@ -227,12 +306,31 @@
                     <?php
                 } else {
                     ?>
-                    <div id="paypal-button-container"></div>
+                <div id="paypal-button-container"></div>
                 <?php } ?>
                 <div class="payment-loader" id="payment-loader">
                     <img src="<?= base_url('assets/frontend/images/loader.gif') ?>" alt="Processing" />
                 </div>
 
+                <div class="text-center py-2">
+                    <img src="<?= base_url('assets/frontend/images/safecheckout.png') ?>" alt="Secure payment">
+                </div>
+                <div class="payment-pop">
+                    <ul>
+                        <li class="e-feature">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Secure Payment
+                        </li>
+                        <li class="e-feature">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Immediate Plan Delivery
+                        </li>
+                        <li class="e-feature">
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Personalised Guidance
+                        </li>
+                    </ul>
+                </div>
 
                 <div class="payment-separator">
                     <!--<span>or pay with a card</span>-->

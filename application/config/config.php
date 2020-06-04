@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
-    $url='http://localhost:8080/projects/myketo';
+    $url='http://localhost/gitbaseketo/ketodiet';
 } else {
     $url='https://umarmajeed.com/project/myketo';
 }

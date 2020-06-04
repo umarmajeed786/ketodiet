@@ -3,13 +3,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
-    <meta name="csrf-token" content="d3xrTI7xPf7RGpsN0ca73q1iuQ1OVDk9kfHL17Sj">
-    <meta name="description" content="Keto Cycle offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
+    <meta name="description" content="Keto Diet Simplified offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
     <meta name="keywords" content="Keto diet">
-    <meta property="og:image" content="<?= base_url('assets/frontend/')?>assets/images/share/facebook-share.png">
     
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
-    <title>Recipes Details - Keto</title>
+    <title>Thank You - Keto Diet Simplified</title>
     <link href="<?= base_url('assets/frontend/')?>css/app-new.css" rel="stylesheet" type="text/css">
     <link href="<?= base_url('assets/frontend/')?>css/landing.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="<?= base_url('assets/frontend/')?>js/libs/font-awesome/5.12.1/css/all.min.css" type="text/css">
@@ -21,10 +19,10 @@
 <body>
 
     <header class="b-header">
-        <div class="b-header-inner container text-center">
-            <div class="e-logo">
-                <img src="<?= base_url('assets/frontend/')?>images/keto-diet-logo.png" alt="" class="regular-logo">
-            </div>
+        <div class="text-center py-4">
+            
+                <img src="<?= base_url('assets/frontend/')?>images/keto-diet-logo.png" alt="keto Diet Simplified" class="regular-logo" width="150">
+            
         </div>
         <div class="subheader" style="display:block;">
             <div class="progress-bar" style="background: rgb(68, 216, 177);">
@@ -40,16 +38,27 @@
         <div class="row">
             <div class="col-md-12 ">
 
-                <div class="jumbotron text-center">
-                  <h1 class="display-3">Thank You!</h1>
-                  <p class="lead"><strong>Please check your email</strong> for further instructions on how to complete your account setup.</p>
-                  <hr>
+                <div class="jumbotron text-center bg-white">
+                  <h1 class="display-3">Thanks for your order!</h1>
+
+                  <img src="<?= base_url('/assets/frontend/images/icons-2/check-animation.gif')?>" width="120">
+                  
                   <p>
-                      Having trouble? <a href="<?= base_url('contact')?>">Contact us</a>
+                      We are delighted that you have finally decided to start your weight loss journey with Keto Diet.
                   </p>
-                  <p class="lead">
-                      <a class="btn btn-primary btn-sm" href="<?= base_url('')?>" role="button">Continue to homepage</a>
+                  <p class="lead d-inline-block pb-4">
+                      <a class="btn btn-primary btn-sm" href="<?= base_url('')?>" role="button">Continue to Homepage</a>
                   </p>
+
+                  <hr>
+
+                  <h1 class="display-3 pt-4">We have started to make your diet plan.</h1>
+                  <p>Our expert nutritionist will soon start making your personalised<br> 
+                  keto diet meal plan.</p>
+                  <img src="<?= base_url('/assets/frontend/images/chart-data-graph.gif')?>" width="300">
+                  <p><strong>We will send your diet within next <span style="color:#44d8b1;"><br>24 hours.</span></strong></p>
+
+
                 </div>
                 
             </div>
@@ -65,29 +74,26 @@
             <div class="c-footer--header">
                 <ul class="b-nav">
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="<?= base_url('blog') ?>">Blog</a>
                     </li>
                     <li>
-                        <a href="faq.html">FAQ</a>
+                        <a href="<?= base_url('faq') ?>">F.A.Q</a>
                     </li>
                     <li>
-                        <a href="reviews.html">Reviews</a>
+                        <a href="<?= base_url('general-conditions') ?>">General conditions</a>
                     </li>
                     <li>
-                        <a href="general-conditions.html">General conditions</a>
+                        <a href="<?= base_url('general-conditions') ?>">General conditions</a>
                     </li>
                     <li>
-                        <a href="privacy-policy.html">Data protection policy</a>
-                    </li>
-                    <li>
-                        <a href="contacts.html">Contact us</a>
+                        <a href="<?= base_url('contact') ?>">Contact us</a>
                     </li>
                 </ul>
             </div>
             <hr class="e-hr m-grey">
             <div class="c-footer-footer">
                 <div class="e-rights">
-                    2020 © ALL RIGHTS RESERVED
+                    2016-2020 © ALL RIGHTS RESERVED
                     <div class="disclaimer">
                         DISCLAIMER: Results may vary from person to person. Our service is not intended to diagnose, treat, cure or prevent any disease and does not constitute medical advice.
                     </div>

@@ -1,5 +1,4 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
@@ -17,6 +16,10 @@ $route['about'] = "pages/about";
 $route['terms'] = "pages/terms";
 $route['contact'] = "pages/contact";
 $route['payment'] = 'pages/payment';
+$route['blog'] = 'pages/blog';
+$route['faq'] = 'pages/faq';
+$route['general-conditions'] = 'pages/general_conditions';
+$route['privacy-policy'] = 'pages/privacy_policy';
 $route['payment-success'] = 'customer/paypal_success';
 $route['save-user-payment'] = 'customer/paypal_success';
 

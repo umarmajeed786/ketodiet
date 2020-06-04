@@ -14,13 +14,11 @@
 
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
 
-    <meta name="csrf-token" content="f8rrLttn21DZLCiTla6rQtLhEoUqF7etzsx2zHrx">
 
-    <meta name="description" content="Keto Cycle offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
+    <meta name="description" content="keto Diet Simplified offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
 
-    <meta name="keywords" content="Keto diet">
+    <meta name="keywords" content="keto Diet Simplified">
 
-    <meta property="og:image" content="<?= base_url('assets/frontend/images/share/facebook-share.png') ?>">
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?= base_url('assets/frontend/images/favicon.jpg') ?>" />
 
@@ -51,6 +49,8 @@
     <link href="<?= base_url('assets/frontend/css/landing.css') ?>" rel="stylesheet" type="text/css">
     <link href="<?= base_url('assets/frontend/css/app-new.css') ?>" rel="stylesheet" type="text/css">
 
+    <link href="<?= base_url('assets/frontend/css/loader/style.css') ?>" rel="stylesheet" type="text/css">
+
     <script type="text/javascript">
 
         var _vwo_code = (function () {
@@ -63,7 +63,6 @@
 
             use_existing_jquery = false,
 
-            /* DO NOT EDIT BELOW THIS LINE */
 
             f = false, d = document;
 
@@ -186,13 +185,13 @@
     <nav class="navbar-inverse" style="display: none;">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="<?= base_url('assets/frontend/images/keto-diet-logo.png') ?>" alt="Keto" class="regular-logo"></a>
+          <a class="navbar-brand" href="#"><img src="<?= base_url('assets/frontend/images/keto-diet-logo.png') ?>" alt="keto Diet Simplified" class="regular-logo"></a>
           <a href="#" class="nav-toggle"><i class="fas fa-align-justify"></i></a>
         </div>
         <ul class="nav navbar-nav" style="display: none;">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="<?= base_url('index') ?> ">Home</a></li>
+          <li><a href="<?= base_url('blog') ?>">Blog</a></li>
+          <li><a href="<?= base_url('contact') ?>">Contact Us</a></li>
         </ul>
       </div>
     </nav>
@@ -201,7 +200,7 @@
     <div class="container cm-web-header">
         <div class="row py-4">
             <div class="col text-center">
-                <img src="<?= base_url('/assets/frontend/images/keto-diet-logo.png') ?>" alt="Keto" width="180">
+                <img src="<?= base_url('/assets/frontend/images/keto-diet-logo.png') ?>" alt="keto Diet Simplified" width="180">
             </div>
         </div>
     </div>
@@ -214,9 +213,9 @@
 
             <div class="container">
 
-                <i class="btn-back back" alt="Back"></i>
+                <!--<i class="btn-back back" alt="Back"></i>-->
 
-                <img src="<?= base_url('assets/frontend/images/icons-2/back.png') ?>" alt="Back" class="btn-back" />
+                <img src="<?= base_url('assets/frontend/images/icons-2/Backarrow.jpg') ?>" alt="keto Diet Simplified" class="btn-back" width="20"/>
 
                 <!--<div class="navbar-brand">
 

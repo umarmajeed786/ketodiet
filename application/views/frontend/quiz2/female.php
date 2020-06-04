@@ -69,6 +69,7 @@
                 <div class="question">
                     How much time do you have for meal preparation each day?
                 </div>
+                <div class="question-description">Please select one option</div>
                 <div class="fancy-radio-holder">
                     <input type="hidden" name="answer" value="0" />
                     <div class="fancy-radio btn-single" data-answer="1">
@@ -144,11 +145,14 @@
                     <div class="icon">
                         <i class="veal"></i>
                     </div>
-                    Veal
+                    Bacon
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
                 <div class="fancy-radio with-icon active" data-answer="7">
+                    <div class="icon">
+                        <i class="notveg"></i>
+                    </div>
                     I am vegetarian
                     <div class="status"></div>
                     <div class="status-icon">+</div>
@@ -168,14 +172,6 @@
             </div>
             <div class="fancy-checkbox-holder">
                 <input type="hidden" name="answer" value="0" />
-                <div class="fancy-radio with-icon active" data-answer="1">
-                    <div class="icon">
-                        <i class="onions"></i>
-                    </div>
-                    Onions
-                    <div class="status"></div>
-                    <div class="status-icon">+</div>
-                </div>
                 <div class="fancy-radio with-icon active" data-answer="2">
                     <div class="icon">
                         <i class="mushroom"></i>
@@ -242,33 +238,9 @@
                 </div>
                 <div class="fancy-radio with-icon active" data-answer="10">
                     <div class="icon">
-                        <i class="olives"></i>
-                    </div>
-                    Olives
-                    <div class="status"></div>
-                    <div class="status-icon">+</div>
-                </div>
-                <div class="fancy-radio with-icon active" data-answer="11">
-                    <div class="icon">
-                        <i class="capers"></i>
-                    </div>
-                    Capers
-                    <div class="status"></div>
-                    <div class="status-icon">+</div>
-                </div>
-                <div class="fancy-radio with-icon active" data-answer="12">
-                    <div class="icon">
                         <i class="coconut"></i>
                     </div>
                     Coconut
-                    <div class="status"></div>
-                    <div class="status-icon">+</div>
-                </div>
-                <div class="fancy-radio with-icon active" data-answer="13">
-                    <div class="icon">
-                        <i class="goat-cheese"></i>
-                    </div>
-                    Goat cheese
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
@@ -373,10 +345,22 @@
             </div>
             <div class="input-holder">
                 <input id="email-value" type="email" name="email" placeholder="Email Address" />
-                <p class="us-p">myketo.us</p>
+                <div class="email-desc"><i class="fas fa-info-circle"></i>
+                    We need your primary email to send your Personalized Keto Diet Plan.
+                </div>
             </div>
             <div class="error-msg"></div>
-            <button class="btn btn-primary btn-next-step">Next</button>
+            <button class="btn btn-primary btn-next-step">Show My Results</button>
         </div>
+
+        <div class="col-md-12 text-center cm-loader py-5" style="display:none">
+            <!--<div class="spinner-border m-5" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <h3>Please Wait</h3>-->
+            <div class="loader"></div>
+            <h3 class="py-5">Processing Your Personalized Keto Meal Plan</h3>
+        </div>
+
     </div>
 </div>

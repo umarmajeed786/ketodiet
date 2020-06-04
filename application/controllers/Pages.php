@@ -252,7 +252,32 @@ class Pages extends CI_Controller {
     
     public function contact(){ 
         $data['title'] = 'Contact Us';
-        $this->load->view('frontend/contact',$data);
+        $data['template']   = 'frontend/contact';
+        $this->load->view('template/frontend/template',$data);
+    }
+
+    public function blog(){ 
+        $data['title'] = 'Blog';
+        $data['template']   = 'frontend/blog';
+        $this->load->view('template/frontend/template',$data);
+    }
+
+    public function faq(){ 
+        $data['title'] = 'FAQ';
+        $data['template']   = 'frontend/faq';
+        $this->load->view('template/frontend/template',$data);
+    }
+
+    public function general_conditions(){ 
+        $data['title'] = 'General Conditions';
+        $data['template']   = 'frontend/general-conditions';
+        $this->load->view('template/frontend/template',$data);
+    }
+    
+    public function privacy_policy(){ 
+        $data['title'] = 'Privacy Policy';
+        $data['template']   = 'frontend/privacy-policy';
+        $this->load->view('template/frontend/template',$data);
     }
     
     

@@ -50,7 +50,7 @@
 
 <script src="<?= base_url('assets/frontend/js/js.cookie.min.js') ?>" type="text/javascript"></script>
 <script type="text/javascript">
-	function getParameterByName(name) {
+	/*function getParameterByName(name) {
 		name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
 		var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
 		results = regex.exec(location.search);
@@ -64,10 +64,10 @@
 			}
 			$('body').append('<iframe src="https://click.clktraker.com/aff_goal?a=l&goal_id=786" scrolling="no" frameborder="0" width="1" height="1"></iframe>');
 		}
-	});
+	});*/
 </script>
 <script type="text/javascript">
-	var loadDeferredStyles = function () {
+	/*var loadDeferredStyles = function () {
 		var addStylesNode = document.getElementById("deferred-styles");
 		var replacement = document.createElement("div");
 		replacement.innerHTML = addStylesNode.textContent;
@@ -79,7 +79,7 @@
 	if (raf) raf(function () {
 		window.setTimeout(loadDeferredStyles, 0);
 	});
-		else window.addEventListener('load', loadDeferredStyles);
+		else window.addEventListener('load', loadDeferredStyles);*/
 	</script>
 	<script src="<?= base_url('assets/frontend/js/rocket-loader.min.js') ?>" data-cf-settings="95c3c5c99d82cfdd525634e1-|49" defer=""></script>
 	<script defer src="<?= base_url('assets/frontend/js/beacon.min.js') ?>" data-cf-beacon='{"rayId":"58d9dd39699be291","version":"2020.3.0","startTime":1588507673186}'></script>
