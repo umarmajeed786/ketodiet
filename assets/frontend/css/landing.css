@@ -187,6 +187,7 @@ div#gender-select {
   .carousel-indicators{z-index:999 !important;}
   .carousel-control.right{right:-25px !important;}
   .carousel-control.left{left:-25px !important;}
+  .payment-pbar{display: block !important;}
 }
 
 .cm-payment-1{display:none;}

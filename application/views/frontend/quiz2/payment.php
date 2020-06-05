@@ -12,6 +12,14 @@
     <div class="with-bg">
         <div class="container ">
             <img src="<?= base_url('assets\frontend/images/keto-diet-logo.png') ?>" alt="Keto Diet Simplified" class="regular-logo">
+
+            <div class="subheader my-4 payment-pbar" style="display:none;margin: 15px -15px;">
+                <div class="progress-bar">
+                    <div class="progress" style="width:100%;"></div>
+                </div>
+            </div>
+
+
             <div class="block-content">
                 <h1 class="e-intro-title">The Most
                     <span>Popular</span> Keto Diet
