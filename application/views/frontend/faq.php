@@ -2,7 +2,7 @@
     <header class="blog-header pt-3">
         <div class="row ">
             <div class="col text-center">
-                <img src="<?= base_url('assets/frontend/images/keto-diet-logo.png') ?>" alt="Keto" class="regular-logo" width="160">
+                <img src="<?= base_url('assets/frontend/images/keto-diet-logo.png') ?>" alt="Keto Diet Simplified" class="regular-logo" width="160">
             </div>
         </div>
     </header>
@@ -27,7 +27,7 @@
             </p>
             <p class="f-details">We accept payments via Visa, MasterCard, Maestro, PayPal, Amex, Discover, JCB, UnionPay, Elo, Hiper, and Hipercard.
             </p>
-            <p ><span>How much does the Keto Cycle meal plan cost?</span></p>
+            <p ><span>How much does the Keto Diet Simplified meal plan cost?</span></p>
             <p class="f-details">Once you complete the questionnaire, you&rsquo;ll see the current available price of the plan.
             </p>
             <p ><span >Why do we charge for our meal plan?</span>
@@ -52,13 +52,13 @@
             </p>
             <p ><span >What do I do if I didn't receive my plan?</span>
             </p>
-            <p class="f-details">This is a very rare error; however, if you don&rsquo;t receive your plan within two hours, please check your SPAM box. Sometimes the email with the link to a plan ends up there. If you can&rsquo;t find it there, please go to this link: https://ketocycle.diet/myplan and you will be able to access your plan by entering the email you used while purchasing the plan.</span>
+            <p class="f-details">This is a very rare error; however, if you don&rsquo;t receive your plan within two hours, please check your SPAM box. Sometimes the email with the link to a plan ends up there. If you can&rsquo;t find it there, please go to this link: https://ketodietsimplified.com/myplan and you will be able to access your plan by entering the email you used while purchasing the plan.</span>
             </p>
             <p ><span >How can I print my meal plan? &nbsp;</span>
             </p>
             <p class="f-details">Please access your meal plan. Then, at the bottom of your meal plan, you can find the printing options for the day, week, and month. </span>
             </p>
-            <p ><span >Can I see a sample before I buy the Keto Cycle meal plan?</span>
+            <p ><span >Can I see a sample before I buy the Keto Diet Simplified meal plan?</span>
             </p>
             <p class="f-details">Yes, you can see a snippet of the meal plan before buying it. The snippet is present at the bottom of your summary page after the questionnaire is filled out.</span>
             </p>

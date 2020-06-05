@@ -1,16 +1,18 @@
 body{background: #fff !important;}
 .cm-footer{background-color: #e5e7e0;padding: 30px 0;margin-top: -25px;}
 
+.gc-title{font-size: 27px;font-weight: 300;color: #000;line-height: 44px; margin-top: 25px;}
+.gc-content p, .gc-content tr td{font-size: 15px; line-height: 24px; color: #000;}
 .img-slider .carousel-indicators{
   margin-left: 20%;
 }
 .img-slider #quote-carousel .carousel-indicators .active{
-  width: 30px;
-  height: 30px;
+  width: 10px;
+  height: 10px;
 }
 .img-slider #quote-carousel .carousel-indicators li{
-  width: 15px;
-  height: 15px;
+  width: 5px;
+  height: 5px;
   background-color: #333;
   border: 1px solid #333;
   box-shadow: 0 0 5px #333;
@@ -181,7 +183,7 @@ div#gender-select {
     flex: 0 0 100% !important;
     max-width: 100% !important;
   }
-  #billing.m-checkout--11 .e-intro-title{font-size: 38px !important;margin-top: 30px !important;}
+  #billing.m-checkout--11 .e-intro-title{font-size: 26px !important;margin-top: 30px !important;}
   .carousel-indicators{z-index:999 !important;}
   .carousel-control.right{right:-25px !important;}
   .carousel-control.left{left:-25px !important;}
@@ -12264,7 +12266,7 @@ input.m-error {
   .m-billing--v6 .keto-benefits li {
     list-style: none;
     color: #252a34;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 700;
     text-align: left;
     letter-spacing: .51px;
@@ -12454,7 +12456,6 @@ input.m-error {
   }
 
   .m-billing--v6 .block-content {
-    max-width: 300px;
     margin: 0 auto;
     text-align: center;
     width: 100%;
@@ -14750,7 +14751,6 @@ input.m-error {
 
 #billing.m-checkout--11 .e-intro-title {
   text-align: center;
-  font-size: 58px;
   font-weight: 700;
 }
 
@@ -18975,7 +18975,7 @@ html[lang=fr] #landing h1 {
 }
 
 .m-billing--v6.m-billing--v7 h2 {
-  margin: 25px auto;
+  margin: 10px auto;
   max-width: 750px;
 }
 

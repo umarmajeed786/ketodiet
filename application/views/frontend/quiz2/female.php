@@ -101,7 +101,7 @@
                 </div>
                 <div class="fancy-checkbox-holder">
                     <input type="hidden" name="answer" value="0" />
-                    <div class="fancy-radio with-icon active" data-answer="1">
+                    <div class="fancy-radio with-icon mt-btn" data-answer="1">
                         <div class="icon">
                             <i class="chicken"></i>
                         </div>
@@ -109,7 +109,7 @@
                         <div class="status"></div>
                         <div class="status-icon">+</div>
                     </div>
-                    <div class="fancy-radio with-icon active" data-answer="2">
+                    <div class="fancy-radio with-icon mt-btn" data-answer="2">
                         <div class="icon">
                             <i class="pork"></i>
                         </div>
@@ -117,7 +117,7 @@
                         <div class="status"></div>
                         <div class="status-icon">+</div>
                     </div>
-                    <div class="fancy-radio with-icon active" data-answer="3">
+                    <div class="fancy-radio with-icon mt-btn" data-answer="3">
                         <div class="icon">
                             <i class="beef"></i>
                         </div>
@@ -125,7 +125,7 @@
                         <div class="status"></div>
                         <div class="status-icon">+</div>
                     </div>
-                    <div class="fancy-radio with-icon active" data-answer="4">
+                    <div class="fancy-radio with-icon mt-btn" data-answer="4">
                         <div class="icon">
                          <i class="fish"></i>
                      </div>
@@ -133,7 +133,7 @@
                      <div class="status"></div>
                      <div class="status-icon">+</div>
                  </div>
-                 <div class="fancy-radio with-icon active" data-answer="5">
+                 <div class="fancy-radio with-icon mt-btn" data-answer="5">
                     <div class="icon">
                         <i class="lamb"></i>
                     </div>
@@ -141,7 +141,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="6">
+                <div class="fancy-radio with-icon mt-btn" data-answer="6">
                     <div class="icon">
                         <i class="veal"></i>
                     </div>
@@ -149,7 +149,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="7">
+                <div class="fancy-radio with-icon veg-btn" data-answer="7">
                     <div class="icon">
                         <i class="notveg"></i>
                     </div>
@@ -172,7 +172,7 @@
             </div>
             <div class="fancy-checkbox-holder">
                 <input type="hidden" name="answer" value="0" />
-                <div class="fancy-radio with-icon active" data-answer="2">
+                <div class="fancy-radio with-icon" data-answer="2">
                     <div class="icon">
                         <i class="mushroom"></i>
                     </div>
@@ -180,7 +180,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="3">
+                <div class="fancy-radio with-icon" data-answer="3">
                     <div class="icon">
                         <i class="egg"></i>
                     </div>
@@ -188,7 +188,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="4">
+                <div class="fancy-radio with-icon" data-answer="4">
                     <div class="icon">
                         <i class="nuts"></i>
                     </div>
@@ -196,7 +196,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="5">
+                <div class="fancy-radio with-icon" data-answer="5">
                     <div class="icon">
                         <i class="cheese"></i>
                     </div>
@@ -204,7 +204,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="6">
+                <div class="fancy-radio with-icon" data-answer="6">
                     <div class="icon">
                         <i class="butter"></i>
                     </div>
@@ -212,7 +212,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="7">
+                <div class="fancy-radio with-icon" data-answer="7">
                     <div class="icon">
                         <i class="milk"></i>
                     </div>
@@ -220,7 +220,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="8">
+                <div class="fancy-radio with-icon" data-answer="8">
                     <div class="icon">
                         <i class="avocado"></i>
                     </div>
@@ -228,7 +228,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="9">
+                <div class="fancy-radio with-icon" data-answer="9">
                     <div class="icon">
                         <i class="seafood"></i>
                     </div>
@@ -236,7 +236,7 @@
                     <div class="status"></div>
                     <div class="status-icon">+</div>
                 </div>
-                <div class="fancy-radio with-icon active" data-answer="10">
+                <div class="fancy-radio with-icon" data-answer="10">
                     <div class="icon">
                         <i class="coconut"></i>
                     </div>

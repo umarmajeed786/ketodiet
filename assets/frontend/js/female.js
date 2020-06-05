@@ -38,6 +38,18 @@ $(document).ready(function () {
         $('#step-7 .fancy-radio').removeClass('active');
     });
 
+    $('#step-4 .fancy-radio .status-icon').html('-');
+    $('#step-5 .fancy-radio .status-icon').html('-');
+
+    $('#step-4 .veg-btn').click(function () {
+        $('#step-4 .fancy-radio .status-icon').html('-');
+        $('#step-4 .fancy-radio').removeClass('active');
+    });
+    $('#step-4 .mt-btn').click(function () {
+        $('#step-4 .veg-btn .status-icon').html('-');
+        $('#step-4 .veg-btn').removeClass('active');
+    });
+
     $('.fancy-radio-holder .fancy-radio').click(function () {
         $('.fancy-radio .status-icon').html('-');
         //$('.fancy-radio').removeClass('active');

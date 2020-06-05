@@ -29,6 +29,8 @@
 
 <?php } ?>
 
+<script src="<?= base_url('assets/frontend/js/loader/loader.js') ?>" type="text/javascript"></script>
+
 <script type="text/javascript">
 
     var loadDeferredStyles = function () {

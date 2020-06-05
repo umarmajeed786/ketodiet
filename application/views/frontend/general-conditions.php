@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    <div id="app" class="c-content my-5">
+    <div id="app" class="c-content my-5 gc-content">
         <div class="c-content--inner container">
             <div class="b-text b-text-api"></div>
             <div class="b-text b-text-fallback">
@@ -21,10 +21,8 @@
                     <h2>front.conditions</h2>
                 </div> -->
                 <div class="b-text--content">
-                    <p><strong>General Terms and Conditions</strong></p>
-                    <p>
-                        <strong>1. Introduction</strong>
-                    </p>
+                    <h3 class="gc-title">General Terms and Conditions</h3>
+                    <h3 class="gc-title">1. Introduction</h3>
                     <p>
                         1.1. This Agreement govern the entire relationship between you the Client and the Company.
                     </p>
@@ -45,9 +43,7 @@
                         Section 17 below, requires the use of arbitration on an individual basis to resolve disputes,
                         rather than jury trials or any other court proceedings, or class actions of any kind.
                     </p>
-                    <p>
-                        <strong>2. Definitions</strong>
-                    </p>
+                    <h3 class="gc-title">2. Definitions</h3>
                     <p>
                         2.1. Some terms are defined in the introductory part of this Agreement. Unless this Agreement
                         provide otherwise, wherever used in this Agreement, including the introductory part, the
@@ -145,9 +141,7 @@
                             </tr>
                         </table>
                     </p>
-                    <p>
-                        <strong>3. Submission of the Offer</strong>
-                    </p>
+                    <h3 class="gc-title">3. Submission of the Offer</h3>
                     <p>
                         3.1. The Company will provide the Client with a possibility of receiving an Offer through the
                         Website.
@@ -179,9 +173,7 @@
                         Conditions”. Once the Client agrees with the Terms & Conditions, the Client will be required to
                         press the button “Submit”.
                     </p>
-                    <p>
-                        <strong>4. Distance contract</strong>
-                    </p>
+                    <h3 class="gc-title">4. Distance contract</h3>
                     <p>
                         4.1. The Distance contract will be concluded at the moment when the Client accepts the Offer and
                         as indicated in paragraph 3.3.1.
@@ -223,9 +215,7 @@
                         4.6.2 The Client will deny access of Services to children under the age of 18. The Client
                         accepts full responsibility for any unauthorized use of the Services by minors.
                     </p>
-                    <p>
-                        <strong>5. Payments</strong>
-                    </p>
+                    <h3 class="gc-title">5. Payments</h3>
                     <p>
                         5.1. During the period of validity indicated in the Offer, the price for the Services being
                         offered will not increase, except for price changes in VAT-tariffs.
@@ -259,9 +249,7 @@
                     <p>
                         5.4. All prices and costs are in US Dollars unless otherwise indicated.
                     </p>
-                    <p>
-                        <strong>6. Refund Policy</strong>
-                    </p>
+                    <h3 class="gc-title">6. Refund Policy</h3>
                     <p>
                         6.1. Client may apply for a partial refund within 14 days after accepting the Offer by email to
                         Company at [email&#160;protected] if Client provides detailed information how the Services Company
@@ -270,8 +258,7 @@
                         with the the Services’ description on Website will expire if is not presented by the Client to
                         the Company within 14 days after accepting the Offer.
                     </p>
-                    <p>
-                        <strong>7. Intellectual Property Rights</strong>
+                    <h3 class="gc-title">7. Intellectual Property Rights</h3>
                     </p>
                     <p>
                         7.1. As between Company and Client, all intellectual property rights, including but not limited
@@ -306,9 +293,7 @@
                         property rights in relation to the Services or Services-related content, except as expressly set
                         forth in Section 8.1 below.
                     </p>
-                    <p>
-                        <strong>8. Use of Digital content</strong>
-                    </p>
+                    <h3 class="gc-title">8. Use of Digital content</h3>
                     <p>
                         8.1. All intellectual property rights specified in Article 7.1 and relating to Digital content
                         are owned by the Company. Digital content is licensed pursuant to this Section 8, and is not
@@ -340,24 +325,18 @@
                         applicable law, including Company’s right to recover from the Client the loss suffered as a
                         result of or in connection with the infringement including any expenses incurred.
                     </p>
-                    <p>
-                        <strong>9. Sale of Digital Content Prohibited</strong>
-                    </p>
+                    <h3 class="gc-title">9. Sale of Digital Content Prohibited</h3>
                     <p>
                         9.1. The Client is prohibited from selling, offering for sale, sharing, renting out or lending
                         Digital content, or copies of Digital content..
                     </p>
-                    <p>
-                        <strong>10. Privacy Policy</strong>
-                    </p>
+                    <h3 class="gc-title">10. Privacy Policy</h3>
                     <p>
                         10.1. The processing of Client’s personal data is governed by the Privacy Policy which can be
                         found on the Website. It is recommended for the Client to print and keep a copy of the Privacy
                         Policy together with this Agreement.
                     </p>
-                    <p>
-                        <strong>11. Indemnity</strong>
-                    </p>
+                    <h3 class="gc-title">11. Indemnity</h3>
                     <p>
                         11.1. The Client will indemnify and hold the Company, its affiliates, officers, directors,
                         employees, agents, legal representatives, licensors, subsidiaries, joint ventures and suppliers,
@@ -366,9 +345,7 @@
                         violation of any law or the rights of a third party in conjunction with Client’s breach of this
                         Agreement or use of the Services.
                     </p>
-                    <p>
-                        <strong>12. Liability</strong>
-                    </p>
+                    <h3 class="gc-title">12. Liability</h3>
                     <p>
                         12.1. INFORMATION MAY NOT BE APPROPRIATE OR SATISFACTORY FOR THE CLIENT USE, AND HE/SHE SHOULD
                         VERIFY ALL INFORMATION BEFORE RELYING ON IT. ANY DECISIONS MADE BASED ON INFORMATION CONTAINED
@@ -419,9 +396,7 @@
                         damage or loss caused or alleged to be caused by or in connection with use or reliance on any
                         such content, goods, services available on or through any such websites.
                     </p>
-                    <p>
-                        <strong>13. Medical disclaimer</strong>
-                    </p>
+                    <h3 class="gc-title">13. Medical disclaimer</h3>
                     <p>
                         13.1. BEFORE TRYING MEAL PLAN BASED ON FASTING DIET BY THE COMPANY, THE CLIENT SHOULD CONSULT
                         WITH HIS/HER HEALTHCARE SERVICE PROVIDER.
@@ -435,9 +410,7 @@
                         RESPONSIBLE FOR EVALUATING AND ASSESSING HIS OWN HEALTH, INCLUDING ANY NEED TO SEEK APPROPRIATE
                         GUIDANCE FROM A HEALTH CARE PROVIDER.
                     </p>
-                    <p>
-                        <strong>14. Validity and Termination</strong>
-                    </p>
+                    <h3 class="gc-title">14. Validity and Termination</h3>
                     <p>
                         14.1. This Agreement is effective after the Client accepts and electronically expresses his/her
                         consent to comply with them, and they shall remain in effect until terminated in accordance with
@@ -450,9 +423,7 @@
                         provides incorrect and/or incomprehensive information. Notwithstanding the foregoing, statutory
                         termination rights shall not be affected.
                     </p>
-                    <p>
-                        <strong>15. Changes to Agreement</strong>
-                    </p>
+                    <h3 class="gc-title">15. Changes to Agreement</h3>
                     <p>
                         This Agreement, privacy policy and any additional terms and conditions that may apply are
                         subject to change. All amended Agreement, privacy policy and any additional terms and conditions
@@ -462,9 +433,7 @@
                         Client’s acceptance of the amended terms through an electronic click-through. The Client agrees
                         that notice of modifications on the Website and by email is adequate notice.
                     </p>
-                    <p>
-                        <strong>16. Communication</strong>
-                    </p>
+                    <h3 class="gc-title">16. Communication</h3>
                     <p>
                         16.1. In general, the Company prefers communication by e-mail. By accepting this Agreement, the
                         Client accepts communication by e-mail. For this purpose, the Client is requested to have a
@@ -490,9 +459,7 @@
                     <p>
                         16.5. The Client may contact us at any time by sending a message to [email&#160;protected] .
                     </p>
-                    <p>
-                        <strong>17. Dispute resolution</strong>
-                    </p>
+                    <h3 class="gc-title">17. Dispute resolution</h3>
                     <p>
                         17.1. Governing Law. This Agreement is governed by the laws of Texas without regard to its
                         principles of conflicts of law, and regardless of Client’s location.
@@ -548,9 +515,7 @@
                         preclude Client from bringing issues to the attention of federal, state or local agencies and,
                         if the law allows, they can seek relief against us for you.
                     </p>
-                    <p>
-                        <strong>18. Miscellaneous</strong>
-                    </p>
+                    <h3 class="gc-title">18. Miscellaneous</h3>
                     <p>
                         18.1. No person other than the Client shall have any rights under this Agreement.
                     </p>

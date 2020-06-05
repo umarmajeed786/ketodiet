@@ -1,7 +1,7 @@
 
         <div class="desktop-container">
             <div class="container plan plan-recovery">
-                <img src="<?= base_url('assets/frontend/images/logo.svg') ?>" alt="KetoCycle.Diet" class="regular-logo" />
+                <img src="<?= base_url('assets/frontend/images/logo.svg') ?>" alt="Keto Diet Simplified" class="regular-logo" />
                 <h1 style="font-size:24px;">My plan</h1>
                 <p>
                     If you already bought, but didn&#039;t receive your plan, lost your plan access link or face any other problem with your KetoCycle meal plan - enter your email address and we will provide you with a solution.

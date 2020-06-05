@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?= base_url('assets/frontend/css/checkout.css') ?>" />
 <div id="navbar-fixed" class="navbar navbar-fixed">
     <div class="navbar-fixed--inner container">
-        <img src="<?= base_url('assets\frontend/images/keto-diet-logo.png') ?>" alt="KetoCycle.Diet" class="regular-logo">
+        <img src="<?= base_url('assets\frontend/images/keto-diet-logo.png') ?>" alt="Keto Diet Simplified" class="regular-logo">
         <div class="limited-offer">
             The offer expires in: <span class="time is-pulsing">15:00</span>
         </div>
@@ -11,7 +11,7 @@
 <div id="billing" class="m-billing--v5 m-billing--v6 m-billing--v7 m-checkout--11 m-billing--fixed active adyen-checkout">
     <div class="with-bg">
         <div class="container ">
-            <img src="<?= base_url('assets\frontend/images/keto-diet-logo.png') ?>" alt="KetoCycle.Diet" class="regular-logo">
+            <img src="<?= base_url('assets\frontend/images/keto-diet-logo.png') ?>" alt="Keto Diet Simplified" class="regular-logo">
             <div class="block-content">
                 <h1 class="e-intro-title">The Most
                     <span>Popular</span> Keto Diet
@@ -379,7 +379,7 @@
                         <font color="#444444">
                         <font face="Karla, serif">
                         <font size="2">
-                        <font style="font-size: 10pt"><b>KETO CYCLE COMMITMENT TO PRIVACY</b></font>
+                        <font style="font-size: 10pt"><b>Keto Diet Simplified COMMITMENT TO PRIVACY</b></font>
                         </font>
                         </font>
                         </font>

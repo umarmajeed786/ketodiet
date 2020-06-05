@@ -32,6 +32,7 @@ $(document).ready(function () {
         $('#step-3 .fancy-radio .status-icon').html('-');
         $('#step-3 .fancy-radio').removeClass('active');
     });
+        
     $('#step-6 .fancy-radio').click(function () {
         $('#step-6 .fancy-radio .status-icon').html('-');
         $('#step-6 .fancy-radio').removeClass('active');
@@ -41,6 +42,18 @@ $(document).ready(function () {
         $('#step-7 .fancy-radio').removeClass('active');
     });
 
+
+    $('#step-4 .fancy-radio .status-icon').html('-');
+    $('#step-5 .fancy-radio .status-icon').html('-');
+
+    $('#step-4 .veg-btn').click(function () {
+        $('#step-4 .fancy-radio .status-icon').html('-');
+        $('#step-4 .fancy-radio').removeClass('active');
+    });
+    $('#step-4 .mt-btn').click(function () {
+        $('#step-4 .veg-btn .status-icon').html('-');
+        $('#step-4 .veg-btn').removeClass('active');
+    });
 
     $('.fancy-radio-holder .fancy-radio').click(function () {
          //$('.fancy-radio .status-icon').html('-');

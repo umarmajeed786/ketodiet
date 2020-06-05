@@ -8,7 +8,7 @@
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
     <meta name="csrf-token" content="f8rrLttn21DZLCiTla6rQtLhEoUqF7etzsx2zHrx">
     <meta name="description" content="Keto Cycle offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
-    <meta name="keywords" content="Keto diet">
+    <meta name="keywords" content="Keto Diet Simplified">
     <meta property="og:image" content="assets/images/share/facebook-share.png">
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?= base_url('assets') ?>/favicon/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?= base_url('assets') ?>/favicon/apple-touch-icon-114x114.png" />
@@ -60,7 +60,7 @@
 
         <div id="landing">
             <div class="container">
-                <img src="<?= base_url('assets') ?>/images/logo1b26.svg?v2" alt="KetoCycle.Diet" class="regular-logo" />
+                <img src="<?= base_url('assets') ?>/images/logo1b26.svg?v2" alt="Keto Diet Simplified" class="regular-logo" />
                 <h1>
                     Find out how much weight<br> you can lose with Keto diet
                 </h1>
