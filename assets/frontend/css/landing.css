@@ -140,7 +140,7 @@ div#gender-select {
   }
   #step-5 .step-number span{top: 0%;}
   .cm-web-header{display:none;}
-  .cm-btn{padding: 15px 20px;font-size: 16px;}
+  .cm-btn{padding: 15px 20px;font-size: 13px;}
   .result__message{font-size:26px;}
   .links{text-align: center;}
   .ft-logo{margin-top: 95px;}
@@ -189,6 +189,7 @@ div#gender-select {
   .carousel-control.left{left:-25px !important;}
   .payment-pbar{display: block !important;}
 }
+
 
 .cm-payment-1{display:none;}
 .cm-payment-2{display:block;}
