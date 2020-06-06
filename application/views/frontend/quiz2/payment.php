@@ -199,8 +199,8 @@
                                     <blockquote>
                                         <div class="row">
                                             <div class="col-sm-8 col-sm-offset-2">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small>Someone famous</small>
+                                                <p>I have tried keto for long without guidance and failed, starting a guided keto diet has worked perfectly for me.</p>
+                                                <small>Michelle Keegan</small>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -210,8 +210,8 @@
                                     <blockquote>
                                         <div class="row">
                                             <div class="col-sm-8 col-sm-offset-2">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small>Someone famous</small>
+                                                <p>I literally went from 210 to 188 lb in under  a month, I would say guided keto diet is magical.</p>
+                                                <small>Kelly Hare</small>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -221,8 +221,8 @@
                                     <blockquote>
                                         <div class="row">
                                             <div class="col-sm-8 col-sm-offset-2">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <small>Someone famous</small>
+                                                <p>Tried to make my own diet, did more harm and then good. I would suggest only to go for certified nutritionist made custom keto diet.</p>
+                                                <small>Michelle Wigle</small>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -230,12 +230,12 @@
                             </div>
                             <!-- Bottom Carousel Indicators -->
                             <ol class="carousel-indicators">
-                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="<?= base_url('assets\frontend/images/Michelle-Wigle.jpg') ?>" alt="">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="<?= base_url('assets\frontend/images/melly.jpg') ?>" alt="Michelle Keegan">
                                 
                                 </li>
-                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="<?= base_url('assets\frontend/images/kelly-1.jpg') ?>" alt="Kelly Hare">
                                 </li>
-                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="<?= base_url('assets\frontend/images/Michelle-Wigle.jpg') ?>" alt="Michelle Wigle">
                                 </li>
                             </ol>
 
