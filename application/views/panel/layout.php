@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><?= $page_title ?> -MyKeto</title>
+        <title><?= $page_title ?> - Keto Diet Simplified</title>
         <meta name="robots" content="noindex, follow" />
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -63,7 +63,7 @@
                         <!-- Header Logo (Header Left) Start -->
                         <div class="header-logo col-auto">
                             <a href="<?= base_url('panel/dashboard') ?>">
-                                <img src="<?= base_url('assets') ?>/frontend/images/keto-diet-logo.png" alt="">
+                                <img src="<?= base_url('assets') ?>/frontend/images/keto-diet-logo.png" alt="Keto Diet Simplified" width="90">
                                 <!--<img src="<?= base_url('assets') ?>//frontend/images/logo/logo-light.png" class="logo-light" alt="">-->
                             </a>
                         </div><!-- Header Logo (Header Left) End -->
@@ -185,6 +185,13 @@
                 <!-- Side Header Inner Start -->
                 <div class="side-header-inner custom-scroll">
 
+                    <div class="mobile-logo" style="display: none;">
+                        <a href="<?= base_url('panel/dashboard') ?>">
+                            <img src="<?= base_url('assets') ?>/frontend/images/keto-diet-logo.png" alt="Keto Diet Simplified" width="120">
+                            <!--<img src="<?= base_url('assets') ?>//frontend/images/logo/logo-light.png" class="logo-light" alt="">-->
+                        </a>
+                    </div>
+
                     <nav class="side-header-menu" id="side-header-menu">
                         <ul>
                             <li><a href="<?= base_url('panel/dashboard') ?>"><i class="ti-home"></i> <span>Home</span></a></li>
@@ -207,7 +214,7 @@
                 <div class="container-fluid">
 
                     <div class="footer-copyright text-center">
-                        <p class="text-body-light">2020 &copy; <a href="#">Myketo</a></p>
+                        <p class="text-body-light">2016-2020 &copy; <a href="#">Keto Diet Simplified</a></p>
                     </div>
 
                 </div>

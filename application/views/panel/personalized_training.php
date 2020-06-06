@@ -22,7 +22,7 @@ if($addon_payment_type!=1){
 
         <div class="col-md-6 my-4">
             <div class="card bg-dark text-white">
-                <img class="card-img" src="./assets/images/class-3.jpg" alt="Card image">
+                <img class="card-img" src="<?= base_url('/assets/images/class-3.jpg') ?>" alt="Card image">
                 <div class="card-img-overlay">
 
                     <h3 class="text-white">Workout 1</h3>
@@ -49,7 +49,7 @@ if($addon_payment_type!=1){
 
         <div class="col-md-6 my-4">
             <div class="card bg-dark text-white">
-                <img class="card-img" src="./assets/images/class-2.jpg" alt="Card image">
+                <img class="card-img" src="<?= base_url('/assets/images/class-2.jpg') ?>" alt="Card image">
                 <div class="card-img-overlay">
 
                     <h3 class="text-white">Workout 2</h3>

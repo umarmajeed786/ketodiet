@@ -1,8 +1,8 @@
 /**************Site Header******************/
 @media only screen and (min-width: 991px){
-  .side-header.hide{left: 0px;width: 100px !important;}
+  .side-header.hide{left: 0px !important;width: 100px !important;}
   .side-header.hide + .content-body, .side-header.hide ~ .footer-section {
-      margin-left: 100px;
+      margin-left: 100px !important;
   }
   .side-header.hide .side-header-menu > ul > li > a span{white-space: initial;}
 }
@@ -455,4 +455,30 @@ canvas{
   .cm-title-01 {
     display: block;
   }
+
+
+  .header-logo{display: none !important;}
+
+  .side-header-menu > ul > li > a i{
+    width: 30% !important;
+    float: left !important;
+  }
+  .side-header-menu > ul > li > a span{
+    width: 70%;
+    text-align: left !important;
+    vertical-align: -webkit-baseline-middle;
+  }
+  .side-header-menu > ul > li > a{
+    display: inline-block !important;
+    border-bottom: 1px solid #bdbdbd47;
+  }
+  .side-header.hide {
+    left: -310px;
+   }
+   .side-header{width: 230px !important; padding: 0px !important;}
+   .mobile-logo{
+        display: block !important;
+        text-align: center !important;
+        padding: 20px 0;
+    }
 }

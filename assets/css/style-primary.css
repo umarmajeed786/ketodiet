@@ -461,7 +461,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*Content Body*/
 .content-body {
   padding: 30px;
-  margin-top: 110px;
+  margin-top: 75px;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -7207,10 +7207,10 @@ table.data-table.collapsed tbody tr.child td.child ul li .dtr-title {
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 200px;
-      -ms-flex: 0 0 200px;
-          flex: 0 0 200px;
-  height: 110px;
+  -webkit-flex: 0 0 135px;
+      -ms-flex: 0 0 135px;
+          flex: 0 0 135px;
+  height: 75px;
 }
 
 .header-logo a {
@@ -9042,12 +9042,12 @@ body.header-top-green .header-notification-area > li > a .user .name {
 /*  08. Side Header CSS
 /*----------------------------------------*/
 .side-header {
-  width: 200px !important;
+  width: 120px;
   background-color: #161824;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 0px);
   position: fixed;
   left: 0;
-  top: 110px;
+  top: 75px;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -9070,7 +9070,7 @@ body.header-top-green .header-notification-area > li > a .user .name {
 }
 
 .side-header.show + .content-body, .side-header.show ~ .footer-section {
-  margin-left: 200px;
+  margin-left: 120px;
 }
 
 .side-header .side-header-close {
@@ -9176,6 +9176,7 @@ body.header-top-green .header-notification-area > li > a .user .name {
 .side-header-menu > ul > li > a span {
   margin-left: unset;
   text-align: center;
+  white-space: initial;
 }
 
 .side-header-menu > ul > li > a span:first-child {
