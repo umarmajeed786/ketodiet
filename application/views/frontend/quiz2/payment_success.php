@@ -5,6 +5,8 @@
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
     <meta name="description" content="Keto Diet Simplified offers a new, educated approach to the famous Ketogenic diet. It combines all of its health and weight loss benefits in one, easy-to-use app and guides you through your personalized daily Keto meal plan the safest way possible.">
     <meta name="keywords" content="Keto diet">
+
+    <link rel="icon" type="image/png" href="<?= base_url('assets/frontend/images/favicon.jpg')?>" sizes="96x96">
     
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
     <title>Thank You - Keto Diet Simplified</title>
@@ -13,7 +15,11 @@
     <link rel="stylesheet" href="<?= base_url('assets/frontend/')?>js/libs/font-awesome/5.12.1/css/all.min.css" type="text/css">
 
     <style type="text/css">
-
+        .jumbotron{padding-top: 0;padding-bottom: 0;}
+        .jumbotron h1{padding-bottom: 0;font-size: 30px;line-height: 30px;}
+        .btn-primary{margin-top: 0;font-size: 18px;}
+        hr{margin: 0;}
+        .jumbotron p{font-size: 18px;}
     </style>
 </head>
 <body>
@@ -32,31 +38,30 @@
     </header>
 
 
-    <div class="container my-5">
+    <div class="container mt-1 mb-2">
 
         <!--row start -->
         <div class="row">
             <div class="col-md-12 ">
 
                 <div class="jumbotron text-center bg-white">
-                  <h1 class="display-3">Thanks for your order!</h1>
-
-                  <img src="<?= base_url('/assets/frontend/images/icons-2/check-animation.gif')?>" width="120">
-                  
-                  <p>
+                    
+                    <h1 class="display-3">Thanks for your order!</h1>
+                    <img src="<?= base_url('/assets/frontend/images/icons-2/check-animation.gif')?>" width="70">
+                    <p>
                       We are delighted that you have finally decided to start your weight loss journey with Keto Diet.
-                  </p>
-                  <p class="lead d-inline-block pb-4">
-                      <a class="btn btn-primary btn-sm" href="<?= base_url('')?>" role="button">Continue to Homepage</a>
-                  </p>
+                    </p>
+                    <p class="lead d-inline-block pb-4">
+                        <a class="btn btn-primary btn-sm" href="<?= base_url('')?>" role="button">Continue to Homepage</a>
+                    </p>
 
-                  <hr>
+                    <hr>
 
-                  <h1 class="display-3 pt-4">We have started to make your diet plan.</h1>
-                  <p>Our expert nutritionist will soon start making your personalised<br> 
-                  keto diet meal plan.</p>
-                  <img src="<?= base_url('/assets/frontend/images/chart-data-graph.gif')?>" width="300">
-                  <p><strong>We will send your diet within next <span style="color:#44d8b1;"><br>24 hours.</span></strong></p>
+                    <h1 class="display-3 pt-1">We have started to make your diet plan.</h1>
+                    <p>Our expert nutritionist will soon start making your personalised<br> 
+                    keto diet meal plan.</p>
+                    <img src="<?= base_url('/assets/frontend/images/chartgif.gif')?>" width="70">
+                    <p><strong>We will send your diet within next <span style="color:#44d8b1;"><br>24 hours.</span></strong></p>
 
 
                 </div>

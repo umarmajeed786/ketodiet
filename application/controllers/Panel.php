@@ -170,7 +170,7 @@ class Panel extends CI_Controller {
                             <a href="<?= base_url('panel/meal-recipe/' . $value->meal_id . '/' . clean($value->meal_name)) ?>">
                                 <h4 class="cm-title-01"></h4>
                                 <div class="card text-white">
-                                    <img src="<?= base_url('uploads') ?>/images/meals/<?= $value->meal_image ?>" class="card-img img-fluid" style="height: 250px !important;" alt="">
+                                    <img src="<?= base_url('uploads') ?>/images/meals/<?= $value->meal_image ?>" class="card-img img-fluid" style="height: 250px;" alt="">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title text-white text-uppercase"><?= $value->meal_name ?></h5>
                                         <p class="card-text">Kcal: <?= $value->meal_kcal ?></p>

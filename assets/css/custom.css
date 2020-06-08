@@ -87,7 +87,7 @@ input:checked ~ .checkmark{
     align-items: center;
     flex-wrap: wrap;
 }
-.plan-div, .plan-title-div{background-color: #fff;border-bottom: 1px solid #33333347;}
+.plan-div, .plan-title-div{background-color: #fff;border-bottom: 1px solid #33333347;margin: 0 15px;}
 .cm-title-01 {
     display: none;
     text-align: center;
@@ -432,6 +432,9 @@ canvas{
     padding: 5px 15px;
 }
 
+.meal-week-title {
+    margin: 2px 15px;
+}
 
 
 @media only screen and (max-width: 990px){
@@ -448,7 +451,7 @@ canvas{
     font-size: 17px;
   }
   .plan-div-col .col-md-3{
-    width: 50%;
+    /*width: 50%;*/
   }
   .plan-day h4{font-size: 24px;}
   .plan-title-div{display: none;}
@@ -480,5 +483,33 @@ canvas{
         display: block !important;
         text-align: center !important;
         padding: 20px 0;
+    }
+
+    .plan-details, .plan-details-title{display: none ;}
+    .meal-week-div{padding-top: 18px;text-align: center;}
+    .meal-week-title{margin: 0;text-align: center;}
+    .meal-week-title .page-heading h3{display: block;}
+
+
+    .content-body{padding: 0;}
+    .plan-div{background-color: transparent;margin: 0;padding-top: 0 !important;}
+    .plan-div .col-md-3{background-color: #fff;padding: 0;border-radius: 6px;}
+    .plan-div .card{
+        display: inline-block;
+        box-shadow: unset;
+        border: none;
+    }
+    .plan-div .card-img{width: 35%;float: left;max-height: 72px !important;margin: 10px 5px;}
+    .plan-div .card-img-overlay{
+        background: unset;
+        position: relative;
+        width: 60%;
+        float: left;
+        padding: 13px 10px;
+    }
+    .plan-div h5.card-title{margin-bottom: 0;color: #333 !important;font-size: 14px;}
+    .plan-div .card-text{color: #333 !important;}
+    .plan-div .cm-title-01 {
+        display: none;
     }
 }

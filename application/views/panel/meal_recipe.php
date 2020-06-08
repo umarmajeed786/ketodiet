@@ -66,7 +66,7 @@ if ($meals) {
                                         <label class="form-check">
                                             <input class="form-check-input" checked="" type="checkbox" value="">
                                             <span class="checkmark"></span>
-                                            <span class="form-check-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?= $value ?></span>
+                                            <span class="form-check-label"><?= $value ?></span>
                                         </label> <!-- form-check.// -->
                                         <?php
                                     }

@@ -2,7 +2,7 @@
 <div class="content-body">
 
     <!-- Page Headings Start -->
-    <div class="row mb-10">
+    <div class="row mb-10 plan-details-title">
 
         <!-- Page Heading Start -->
         <div class="col-12 col-lg-auto ml-15 mr-15">
@@ -98,15 +98,15 @@
 
 
     <!-- Row Start -->
-    <div class="row">
+    <div class="row mb-20">
 
-        <div class="col-12 col-md-4 col-lg-auto ml-15 mr-15">
+        <div class="col-12 col-md-4 col-lg-auto  meal-week-title">
             <div class="page-heading">
                 <h3>Your Custom Meal Plan</h3>
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-lg-auto ml-15 mr-15">
+        <div class="col-12 col-md-8 col-lg-auto meal-week-div">
 
             <nav aria-label="Page navigation example" class="d-inline-block">
                 <ul class="pagination">
@@ -175,7 +175,7 @@
     </div>
   
 
-    <div class="row py-4 pl-3 pr-3  mb-2 plan-div-col">
+   <!--  <div class="row py-4 pl-3 pr-3  mb-2 plan-div-col">
         <div class="col-lg-12 col-md-12">
             <div class="row" >
 
@@ -204,7 +204,7 @@
                 ?>
             </div>
         </div>
-    </div>
+    </div> -->
       <div class="row plan-title-div pt-3">
                 <div class="col-md-1"></div>
 
