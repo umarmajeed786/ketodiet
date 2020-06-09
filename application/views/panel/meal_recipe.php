@@ -21,7 +21,12 @@ if ($meals) {
     <div class="container mt-2 mb-5 recipe-container">
 
         <!--row start -->
-        <div class="row py-5">
+        <div class="row py-3">
+            <div class="col-md-12 ">
+                <a href="<?= base_url('panel/meal-plan') ?>" class="back-btn">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+            </div>
             <div class="col-md-6 ">
                 <div class="card bg-dark text-white">
                     <img <?= $image_path ?> class="img-fluid">
@@ -45,7 +50,7 @@ if ($meals) {
         <!--row end --> 
 
         <!--row start -->
-        <div class="row my-5 pt-1 pb-4">
+        <div class="row my-3 pt-1 ">
             <div class="col-sm-4">
 
                 <!-- card one -->

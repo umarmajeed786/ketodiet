@@ -9070,7 +9070,7 @@ body.header-top-green .header-notification-area > li > a .user .name {
 }
 
 .side-header.show + .content-body, .side-header.show ~ .footer-section {
-  margin-left: 120px;
+  margin-left: 100px;
 }
 
 .side-header .side-header-close {

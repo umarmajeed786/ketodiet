@@ -7,6 +7,13 @@
   .side-header.hide .side-header-menu > ul > li > a span{white-space: initial;}
 }
 
+
+.back-btn i{
+    margin-left: 0;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 /****************recipe details****************/
 .recipe-container .card-img-overlay{
     padding: 40px;
@@ -20,13 +27,13 @@
     font-weight: 700;
 }
 .recipe-container p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .rd-icon{padding: 0 10px;}
 .recipe-card-filter .form-check-label{
-    margin-left: 16px;
-    font-size: 18px;
-    font-weight: 500;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 400;
 }
 .recipe-card-filter .form-check-input{
     width: 20px;
@@ -65,14 +72,14 @@ input:checked ~ .checkmark{
 .recipe-card-filter-2 .card-header{background-color: transparent;}
 .recipe-card-filter-2 .list-group-item{
     background-color: #f5f5f5;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .recipe-div{padding: 10px 20px;}
 .recipe-div ol{padding-left: 15px;}
 .recipe-div li{
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 0;
     border-bottom: 1px solid #e3e3e3;
 }
@@ -435,7 +442,11 @@ canvas{
 .meal-week-title {
     margin: 2px 15px;
 }
-
+.recipe-card-filter .form-check-input{top: 4px;}
+.recipe-card-filter .checkmark{top: 14px;}
+.recipe-card-filter h3{margin: 0;}
+.recipe-card-filter .card-body{padding: 0 23px 20px;}
+.recipe-card-filter .card-header {padding: 13px 0 0;}
 
 @media only screen and (max-width: 990px){
   .container {
@@ -488,10 +499,10 @@ canvas{
     .plan-details, .plan-details-title{display: none ;}
     .meal-week-div{padding-top: 18px;text-align: center;}
     .meal-week-title{margin: 0;text-align: center;}
-    .meal-week-title .page-heading h3{display: block;}
+    .page-heading h3{display: block !important;padding-top: 25px;text-align: center;}
 
 
-    .content-body{padding: 0;}
+    .content-body{padding: 0 !important;}
     .plan-div{background-color: transparent;margin: 0;padding-top: 0 !important;}
     .plan-div .col-md-3{background-color: #fff;padding: 0;border-radius: 6px;}
     .plan-div .card{
@@ -512,4 +523,10 @@ canvas{
     .plan-div .cm-title-01 {
         display: none;
     }
+
+    .container {
+        width: 95% !important;
+    }
+    
+    
 }

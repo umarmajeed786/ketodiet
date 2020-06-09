@@ -263,7 +263,7 @@
                 {week: week},
                 function (data, status) {
                     if (data) {
-                        console.log(data);
+                        //console.log(data);
                         $('#meals_data').html(data);
                         $('#loading').hide();
                     }
